@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	    <link rel="stylesheet" href="style.css">
+		<title>Encriptador de texto</title>
+	</head>
+
+    <body>
+
+	    <header>
+	   		 <img class="logoAlura" src="C:\Users\Deyzi Marques\Desktop\CHALLENGE_DESAFIO\imagens\logo_alura.png" alt="logo da Alura">
+		</header>
+
+	     <main>
+			
+	     	<section> 
+				<textarea class="text-area" cols="42" rows="4" placeholder="Digite seu texto"></textarea>
+
+				<textarea class="alerta" cols="1" rows="1"></textarea>
+				<textarea class="texto" cols="1" rows="1" placeholder="Apenas letras minúsculas e sem ascento!"></textarea>
+
+				<div class="botoes">
+						<button class="bnt-encriptar" onclick="bntEncriptar()">Criptografar</button>
+						<button class="bnt-desencriptar" onclick="bntDesencriptar()">Descriptografar</button>
+				</div>
+		    </section>
+
+	    	<section> 
+				<textarea class="mensagem" cols="26" rows="12"></textarea>
+	    	 	<button class="bnt-copiar" onclick="bntCopiar()"> Copiar</button>
+	    	</section>
+	     </main>
+		
+			</footer><p class="copyright">&copy; Deyzi Marques - 2023</footer>
+		<script src="script.js"></script>
+  	  </body>
+</html>
