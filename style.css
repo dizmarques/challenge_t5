@@ -2,8 +2,13 @@
   background-color: #E5E5E5;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 150%;
+  color: #495057;
+}
+* p {
+
+  font-size: 16px;
 }
 
 .logoAlura {
@@ -17,12 +22,10 @@
 }
 
  .copyright { 
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   color: #072953;
  }
-
-
 
  main {
   display:inline-block;
@@ -62,7 +65,7 @@
   background-position: 50% 40%;
   background-repeat:no-repeat;
   width: 400px;
-  height: 544px;
+  height: 500px;
   left: 900px;
   top: 10px;
   box-shadow: 0px 16px 20px -8px;
@@ -89,7 +92,7 @@
     cursor: pointer;
     height: 67px;   
     width: 328px;
-    margin-top: 450px;
+    margin-top: 25px;
     margin-left: 80px;
   }
 
@@ -138,7 +141,7 @@
     height: 67px;
     top: 400px;
     left: 40px;
-    margin-left: 900px;
+    margin-left: 890px;
     position:absolute;
     width: 336px;
   }
@@ -171,18 +174,7 @@
   padding-inline-end: 100%px;
 }
 
-.alerta {
-  display:inline-block;
-  height: 67px;
-  margin: 108px;
-  margin-top: 302px;
-  background-image: url(alerta.png);
-  background-repeat: no-repeat;
-  border: none;
-  margin-left: 30px;
-  position: absolute;
-  top: 80px;
- }
+
 
 
  
